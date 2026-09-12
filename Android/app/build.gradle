@@ -1,0 +1,18 @@
+Android {
+    namespace `com.umarhorary.app'
+    compilesdk 34
+
+    defaultConfig {
+        applicationId "com.umarhorary.app"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release
+            minifyEnabled false
+            shirinkResources false
+           }
+    }
+}
