@@ -1,0 +1,2 @@
+workflow:umar-horary:name:Umar Horary Build environment:flutter:stable scripts: -flutter pub get -flutter build Apk --release artifacts:
+-build/app/output/flutter-apk/°.apk
