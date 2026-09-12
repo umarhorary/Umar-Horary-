@@ -9,4 +9,4 @@ workflows:
                          --release
      artifacts:
       -build/app/outputs/.      
-                 flutter-apk/*.apk
+              flutter-apk/*.apk
