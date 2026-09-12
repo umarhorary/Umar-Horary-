@@ -1,6 +1,7 @@
 workflows:
   umar-horary-android:
     name: Umar Horary Build
+    working_directory: .
     environment:
       flutter: stable
     scripts:
